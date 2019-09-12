@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sonic The Hedgehog</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <a href="#">
+            <h1>Alisher Nuritdinov</h1>
+        </a>
+    </header>
+    <main>
+        <table>
+            <thead>
+            <tr>
+                <th>Email</th>
+                <th>Skype</th>
+                <th>Telegram</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a href="mailto:sonicdx@inbox.ru">sonicdx@inbox.ru</a></td>
+                <td>
+                    <a href="skype:realsonic1991?call"></a>realsonic1991
+                </td>
+                <td>
+                    <a href="https://t.me/Sonic_TheHedgehog">@Sonic_TheHedgehog</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <section>
+            <h2>Summary</h2>
+            <p>
+
+                Working in a challenging and stimulating environment. Using my abilities and experience to maximize the enterprise´s benefits.
+
+                Learning new concepts and technologies and apply it to reach the organization´s success.
+
+                Being part of the positive changes being implemented leadership, dedication and experience to contribute to the welfare of the company and society.
+
+                To apply all my skills and knowledge to my job and offer a quality service and continue growing together.
+            </p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-n-photo">
+                <ul class="skills">
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Angular</li>
+                    <li>RXJS</li>
+                    <li>NodeJS</li>
+                    <li>MongoDB</li>
+                    <li>GIT</li>
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>Unit Testing</li>
+                </ul>
+                <img class="photo" src="https://i.imgur.com/35cE2vS.jpg" alt="Моя прекрасная баба" width="200" height="200">
+            </div>
+        </section>
+        <section>
+            <h2>Code examples</h2>
+            <div class="code">this.form = new FormGroup({
+                name: new FormControl('', [Validators.required, Validators.maxLength(64)]),
+                email: new FormControl('', [Validators.required, Validators.email, Validators.maxLength(64)]),
+                phone: new FormControl('', [Validators.required, phoneValidator, Validators.maxLength(32)]),
+                message: new FormControl('', [Validators.required, Validators.maxLength(2048)]),
+                accept: new FormControl(false, [acceptValidator]),
+                file: new FormControl(undefined),
+                _project_sphere: new FormControl(''),
+                });
+            </div>
+
+            <div class="code">&lt;rb-input-v2 [control]="form.get('name')" class="mt-4" header="V2_NAME"&gt;&lt;/rb-input-v2&gt;
+                &lt;rb-input-v2 [control]="form.get('email')" class="mt-4" header="V2_EMAIL"&gt;&lt;/rb-input-v2&gt;
+                &lt;rb-input-v2 [control]="form.get('phone')" class="mt-4" header="V2_PHONE"&gt;&lt;/rb-input-v2&gt;
+                &lt;rb-input-v2 [control]="form.get('message')" class="mt-4" header="V2_MESSAGE" type="textarea"&gt;&lt;/rb-input&gt;
+            </div>
+            <div class="code">.form {
+                padding-top: 32px;
+                padding-bottom: 40px;
+                max-width: 640px;
+                margin: auto;
+                position: relative;
+
+                &:not(.expanded) {
+                overflow: hidden;
+                max-height: 234px;
+
+                &:after {
+                display: block;
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+                background: linear-gradient(to top, white, rgba(255, 255, 255, 0.001));
+                }
+                }
+                }
+            </div>
+        </section>
+        <section>
+            <h2>Experience:</h2>
+            <ul>
+                <li>Produced websites compatible with multiple browsers.</li>
+                <li>Building and maintenance CRM system for call-centre (back-end + front-end) (Angular 5)</li>
+                <li>Building financial web application for business needs (front-end)</li>
+                <li>Building internal microservices (NodeJS)</li>
+                <li>Servers administration</li>
+                <li>Database administration (MongoDB)</li>
+                <li>Worked in an Agile-driven environment to effectively maintain project timelines and utilize available resources.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education:</h2>
+            <h3><em>2008-2012</em></h3>
+            <p>Bachelor of Science: Applied mathematics and computer science</p>
+            <p>Moscow State University, Moscow</p>
+        </section>
+        <section>
+            <h2>English:</h2>
+            <p>Intermediate (able to speak a language but with some difficulty)</p>
+
+        </section>
+    </main>
+    <footer>Sonic The Hedgehog 2019</footer>
+</div>
+</body>
+</html>
