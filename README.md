@@ -1,2 +1,1 @@
-https://sonicreal.github.io/rsscool-cv/cv
-
+https://sonicreal.github.io/rsschool-cv/cv
