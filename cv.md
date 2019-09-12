@@ -1,4 +1,4 @@
-## Alisher Nuritdinov
+## Alisher Nuritdinov (Sonic)
 
 | Email            | Skype         | Telegram           |
 | ---------------- | ------------- | ------------------ |
